@@ -6,10 +6,6 @@ var io = require('socket.io')(http);
 var moment = require('moment');
 var now = moment();
 
-//var timestamp = now.valueOf();
-//var timestampMoment = moment.utc(timestamp);
-//console.log(timestampMoment.local().format('h:mma'));
-
 
 app.use(express.static(__dirname + '/public'));
 
